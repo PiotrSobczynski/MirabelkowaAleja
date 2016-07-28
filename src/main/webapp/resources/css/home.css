@@ -1,0 +1,10 @@
+body{
+	background:url(../img/home2.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+}
+
+h1{
+	color:blue;
+}
