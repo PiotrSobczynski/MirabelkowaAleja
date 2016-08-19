@@ -16,26 +16,48 @@ body::after {
   position: fixed;
   min-width: 100%;
   min-height: 100%;
+  height: auto;
   z-index: -1;   
 }
 
 h1{
-	font-family: "Times New Roman", Times, serif;
+
 	text-align: center;
-	font-size: 60px;
-	font-style: italic;
-	color:white;
+	font-size: 20px;
 }
 
 h2{
-	font-family: "Times New Roman", Times, serif;
+
 	position:absolute;
 	top:10;
 	right:10;
 	vertical-align: text-top;
 	text-align: left;
 	font-size: 25px;
-	color:white;
+
 }
 
+h4{
+	text-align: center;
+}
 
+p{
+	text-align: left;
+	font-size: 12px;
+}
+
+.jumbotron {
+	 background: rgba(62, 171, 254, 0.0);
+     background-repeat:no-repeat;
+     background-position:100% 200%;
+     top:50px;
+	 width:50%;
+	 text-align: left;
+     position: absolute;
+     left: 125px;
+     margin-bottom:70px;
+}
+
+a{
+	left: 300px;
+}
